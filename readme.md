@@ -1,152 +1,154 @@
-# AURA: Multi-Agent Retrieval-Augmented Generation System for Financial Data Processing
+# Autonomous RAG for Financial Analysis.
+: Multi-Agent Retrieval-Augmented Generation System for Financial Data Processing
 
 <p align="center">
   <img src="Assets\image1.png" width="45%" style="margin-right: 5%"/>
   <img src="Assets\image2.png" width="45%"/>
 </p>
 
-## 🚀 Overview
 
-AURA is an advanced **Multi-Agent Retrieval-Augmented Generation (MARAG)** system designed to revolutionize financial data processing. Leveraging cutting-edge AI technologies, AURA provides comprehensive, accurate, and timely financial insights.
+## 🚀 Overview  
 
----
-
-## ✨ Key Features
-
-### 🧠 Advanced Multi-Agent Architecture
-
-- 🤖 Specialized agents for financial analysis
-- 🔍 Adaptive Retrieval-Augmented Generation (RAG)
-- ⚡ Dynamic task management
-
-### 🛠️ Intelligent Components
-
-- **FinGPT**: Financial domain-specific language model
-- **TableVision**: Advanced table data parsing
-- **LLM Compiler-based Supervisor**
-- ✅ Comprehensive Responsible AI framework
+**Autonomous RAG for Financial Analysis (AURA)** is a sophisticated **Multi-Agent Retrieval-Augmented Generation (MARAG)** platform designed to transform financial data analysis. Utilizing state-of-the-art AI technologies, AURA delivers accurate, comprehensive, and timely financial insights.  
 
 ---
 
-## 🛠️ Installation
+## ✨ Key Features  
 
-### 📋 Prerequisites
+### 🧠 Multi-Agent System  
 
-- Python 3.8+
-- pip
-- Virtual environment (recommended)
+- 🤖 Agents dedicated to specific financial tasks  
+- 🔍 Adaptive Retrieval-Augmented Generation (RAG) framework  
+- ⚡ Dynamic and efficient task orchestration  
 
-### ⚙️ Setup Steps
+### 🛠️ Core Components  
 
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/Akash-9070/AURA---Full-Stack-Solution.git
-   cd AURA
-   ```
-
-2. **Create and activate a virtual environment**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-
-3. **Install dependencies**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Replace Pathway Library**
-
-   - Replace the pathway library folder in your virtual environment with the provided library from the zip file.
+- **FinGPT**: A financial-focused language model  
+- **TableVision**: Advanced table data extraction tool  
+- **LLM Compiler-based Task Manager**  
+- ✅ Robust Responsible AI compliance framework  
 
 ---
 
-### ▶️ Running the Server
+## 🛠️ Installation  
 
-To run the server for testing:
+### 📋 Requirements  
 
-```bash
-cd server
-python main.py
-```
+- Python 3.8 or higher  
+- pip package manager  
+- Virtual environment (recommended)  
 
-This will initialize the **PathwayVectorServer**.
+### ⚙️ Steps to Set Up  
 
----
+1. **Clone the Repository**  
 
-## 🌀 System Workflow
+   ```bash  
+   git clone https://github.com/Akash-9070/AURA---Full-Stack-Solution.git  
+   cd AURA  
+   ```  
 
-### 🔑 Key Components
+2. **Set Up Virtual Environment**  
 
-- 💼 **Financial Analyst Group**
-- 📊 **Risk Assessment Analyst**
-- 📈 **Market Sentiment Analyst**
-- 🌐 **Adaptive RAG Framework**
-- 👩‍💻 **Human-in-the-Loop (HITL) Mechanism**
+   ```bash  
+   python -m venv venv  
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`  
+   ```  
 
----
+3. **Install Dependencies**  
 
-## 🌍 Responsible AI Principles
+   ```bash  
+   pip install -r requirements.txt  
+   ```  
 
-AURA is built with a strong commitment to:
+4. **Update Pathway Library**  
 
-- 🤝 Ethical AI practices
-- 🛡️ Robust input guardrails
-- 🔍 Content validation
-- 🌟 Transparent decision-making processes
-
----
-
-## 📊 Performance Metrics
-
-Tested on **FinanceBench** dataset with:
-
-- 📈 Enhanced data retrieval accuracy
-- ✅ Reliable financial analysis
-- ⏱️ Real-time processing capabilities
+   - Replace the pathway library in your virtual environment with the version provided in the zip file.  
 
 ---
 
-## 🤝 Contributing
+### ▶️ Start the Server  
 
-1. **Fork the repository**
-2. **Create your feature branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. **Commit your changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. **Push to the branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. **Open a Pull Request**
+To launch the server for testing:  
+
+```bash  
+cd server  
+python main.py  
+```  
+
+This starts the **PathwayVectorServer**.  
 
 ---
 
-## 🛠️ Troubleshooting
+## 🌀 System Workflow  
 
-- ⚙️ Ensure you have replaced the pathway library folder correctly.
-- 📂 Check that all dependencies from `requirements.txt` are installed.
-- 🐍 Verify Python version compatibility.
+### 🔑 Main Modules  
 
----
-
-## 📬 Contact
-
-👤 **Sumit Bahl**📧 2022eeb1217\@iitrpr.ac.in
-
-
+- 💼 **Financial Analysis Group**  
+- 📊 **Risk Assessment Analyst**  
+- 📈 **Market Sentiment Analyst**  
+- 🌐 **Adaptive RAG Framework**  
+- 👩‍💻 **Human-in-the-Loop (HITL) Integration**  
 
 ---
 
-## 🏆 Acknowledgments
+## 🌍 Responsible AI Practices  
 
-- 🌐 [Anthropic](https://www.anthropic.com)
-- 🤝 Research communities in AI and Financial Technology
+AURA upholds the following principles:  
 
+- 🤝 Ethical AI implementation  
+- 🛡️ Strong input safeguards  
+- 🔍 Thorough content validation processes  
+- 🌟 Transparent and explainable decision-making  
+
+---
+
+## 📊 Performance Highlights  
+
+AURA has been tested on the **FinanceBench** dataset, showcasing:  
+
+- 📈 Improved data retrieval precision  
+- ✅ Reliable financial insights generation  
+- ⏱️ Real-time processing efficiency  
+
+---
+
+## 🤝 Contributing  
+
+1. **Fork the Repository**  
+2. **Create a New Branch**  
+   ```bash  
+   git checkout -b feature/NewFeature  
+   ```  
+3. **Commit Your Changes**  
+   ```bash  
+   git commit -m 'Add NewFeature'  
+   ```  
+4. **Push Your Branch**  
+   ```bash  
+   git push origin feature/NewFeature  
+   ```  
+5. **Submit a Pull Request**  
+
+---
+
+## 🛠️ Troubleshooting  
+
+- ⚙️ Verify the pathway library was updated correctly.  
+- 📂 Ensure all required dependencies are installed.  
+- 🐍 Confirm Python version compatibility.  
+
+---
+
+## 📬 Contact  
+
+👤 **Sumit Bahl**  
+📧 2022eeb1217\@iitrpr.ac.in  
+
+---
+
+## 🏆 Acknowledgments  
+
+- 🌐 [Anthropic](https://www.anthropic.com)  
+- 🤝 AI and financial technology research communities  
+
+---
