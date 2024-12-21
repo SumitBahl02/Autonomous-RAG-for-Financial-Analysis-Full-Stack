@@ -43,8 +43,8 @@
 1. **Clone the Repository**  
 
    ```bash  
-https://github.com/SumitBahl02/Autonomous-RAG-for-Financial-Analysis-Full-Stack.git
-cd AURA  
+      https://github.com/SumitBahl02/Autonomous-RAG-for-Financial-Analysis-Full-Stack.git
+      cd AURA  
    ```  
 
 2. **Set Up Virtual Environment**  
